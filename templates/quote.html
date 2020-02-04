@@ -7,19 +7,43 @@
 <body>
     <h1>Quote for {{ artist.artist_name }}</h1>
     <div name="recording_opts">
-
+        <h3>Recording</h3>
+        This is the recording step
+        <input type="radio" name="recording_opt" id="baseRecording" value="baseRecording">
+        <label for="baseRecording">Basic Tier - $500.00</label>
+        <input type="radio" name="recording_opt" id="goodRecording" value="goodRecording">
+        <label for="baseRecording">Mega Tier - $500.00</label>
     </div>
     <div name="editing_opts">
-
+        <h3>Editing</h3>
+        This is the editing step
+        <input type="radio" name="editing_opt" id="baseEditing" value="baseEditing">
+        <label for="baseEditing">Basic Tier - $500.00</label>
+        <input type="radio" name="editing_opt" id="goodEditing" value="goodEditing">
+        <label for="baseEditing">Mega Tier - $500.00</label>
     </div>
     <div name="mixing_opts">
-
+        <h3>Mixing</h3>
+        This is the mixing step
+        <input type="radio" name="mixing_opt" id="baseMixing" value="baseMixing">
+        <label for="baseMixing">Basic Tier - $500.00</label>
+        <input type="radio" name="mixing_opt" id="goodMixing" value="goodMixing">
+        <label for="baseMixing">Mega Tier - $500.00</label>
     </div>
     <div name="mastering_opts">
-
+        <h3>Mastering</h3>
+        <p>Dio is good at mastering</p>
+        <p>$75</p>
     </div>
     <div name="travel_costs">
-
+        <h3>Travel</h3>
+        <p>It costs money to travel places</p>
+        <h4>Flight - $500</h4>
+        <h4>Hotel - $420</h4>
+        <h4>Per Diem - $69</h4>
+    </div>
+    <div name="total">
+        <h2>Your total is $1337</h2>
     </div>
 </body>
 </html>
